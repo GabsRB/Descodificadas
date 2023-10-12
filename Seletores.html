@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Seletores</title>
+
+    <style>
+        /* Estilo da DIV, conforme solicitado no exercicicio */
+        div {
+            display: inline-block;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box; /* ira incluir a borda no calculo do tamanho total*/
+        }
+
+        /* Estilo das bordas dos quadrados vermelhos nas pontas do site */
+        #vermelho_borda {
+            border: 3px solid black;
+        }
+        /* Estilo dos quadrados/divs */
+        .vermelho {
+            background-color: red;
+        }
+
+        .azul {
+            background-color: blue;
+        }
+
+        .verde {
+            background-color: green;
+        }
+
+        .amarelo {
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Quadrados em vermelho da primeira linha -->
+    <div id="vermelho_borda" class="vermelho"></div>
+    <div class="vermelho"></div>
+    <div class="vermelho"></div>
+    <div class="vermelho"></div>
+    <div class="vermelho"></div>
+    <div id="vermelho_borda" class="vermelho"></div>
+
+    <!-- Quadrados em vermelho e azul da segunda linha -->
+    <div class="vermelho"></div>
+    <div class="azul"></div>
+    <div class="azul"></div>
+    <div class="azul"></div>
+    <div class="azul"></div>
+    <div class="vermelho"></div>
+
+    <!-- Quadrados em vermelho e verde da terceira linha -->
+    <div class="vermelho"></div>
+    <div class="verde"></div>
+    <div class="verde"></div>
+    <div class="verde"></div>
+    <div class="verde"></div>
+    <div class="vermelho"></div>
+
+    <!-- Quadrados em vermelho e amarelo da quarta linha -->
+    <div class="vermelho"></div>
+    <div class="amarelo"></div>
+    <div class="amarelo"></div>
+    <div class="amarelo"></div>
+    <div class="amarelo"></div>
+    <div class="vermelho"></div>
+
+    <!-- Quadrados em vermelho da ultima linha -->
+    <div id="vermelho_borda" class="vermelho"></div>
+    <div class="vermelho"></div>
+    <div class="vermelho"></div>
+    <div class="vermelho"></div>
+    <div class="vermelho"></div>
+    <div id="vermelho_borda" class="vermelho"></div>
+</body>
+</html>
