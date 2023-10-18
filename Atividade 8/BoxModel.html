@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercicio Box Model </title>
+    <link rel="shortcut icon" href="imagens/Topo.icon" type="image/x-icon"> <!-- Icone na pagina web -->
+
+    <style>
+        div{
+            width: 400px;
+            height: 400px;
+
+            border: 20px solid rgb(184, 15, 184);/*Borda solida ja declarado seu tamanho e cor*/
+            background: url('imagens/Imag1.jpg');
+            text-align: center;
+            box-shadow: inset 10px 10px 20px 0px  red;/*Sombra vermelha dentro*/
+            background-size: cover;/*Tamanho da imagem no fundo. Com cover, solicito que ele preencha todo o tamanho*/
+            
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding: auto;
+
+            /*Linhas de fora com estilo duplas*/
+            outline-width: 20px;
+            outline-style: double;
+            outline-color: purple;
+
+            /*Elemento centralizado e com o top com uma marge de 100px*/
+            margin: auto;
+            margin-top: 70px;
+        }
+
+        p{
+            padding-top: 100px;
+            font-size: 50px;
+            font-style: italic;
+            color: yellow;
+            font-weight: bolder; /*Deixa redondo o texto*/
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <p> Descodificadas </p>
+    </div>
+
+</body>
+</html>
